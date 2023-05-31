@@ -20,7 +20,7 @@ body {
   height: 20rem;
   width: 20rem;
   border-radius: 50%;
-  border: 1px solid black;
+  border: 1px solid rgb(4, 0, 89);
 }
 
 main {
@@ -67,12 +67,14 @@ a:first-child:hover {
   background-color: rgb(16, 28, 190);
   transition: .8s;
   color: white;
+  transform: scale(1.1)
 }
 
 a:nth-child(2):hover {
   background-color: rgb(0, 0, 0);
   transition: .8s;
   color: white;
+  transform: scale(1.1)
 }
 
 a:nth-child(3):hover {
@@ -80,10 +82,11 @@ a:nth-child(3):hover {
   background: linear-gradient(90deg, rgba(255,85,0,1) 0%, rgba(121,9,38,1) 50%, rgba(59,0,255,1) 100%);
   transition: .8s;
   color: white;
+  transform: scale(1.1)
 }
 
 .edu_img:hover {
-  border: 2px solid rgb(225, 103, 16); 
+  border: 1px solid rgb(8, 0, 150);
   
 }
 
